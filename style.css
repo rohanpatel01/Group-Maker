@@ -1,0 +1,49 @@
+*
+{
+    border: 1px solid black;
+}
+
+h4
+{
+    text-align: center;
+}
+
+.allElements
+{
+    margin: 5% 5% 10% ;
+}
+
+.title
+{
+    text-align:center;
+}
+
+.container1
+{
+    padding: 5% 10%;
+}
+
+.number h4
+{
+    vertical-align: middle;
+}
+
+.teamCaptainsMaker
+{
+    text-align:center;
+    padding: 5% 5%;
+}
+
+.listOfTeamCaptains
+{
+    height: 2em;
+    text-align:center;
+    align-items:flex-start;
+
+}
+
+.createGroup
+{
+    margin-top: 10%;
+    text-align:center;
+}
