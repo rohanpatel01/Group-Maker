@@ -1,0 +1,54 @@
+<!--What I need to do:
+
+* finish off the participants
+- add the dropdown for the groups (need to get number of groups for that to happen)
+- fix the buttons so you can't keep adding participants
+    - make it like the redo button thing in the createGroup.html
+
+- create "view groups" button and it's functionality
+
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="style.css"></link>
+        <title>Group Maker</title>
+    </head>
+
+
+    <body>
+        <div class="title">
+            <h1>Group Maker</h1>
+        </div>
+        
+        <div class="instructions"></div>
+            <p>
+                Here you will add participants to your event. 
+                You can choose to create partners for the participants.
+            </p>
+        </div>
+
+        <div class="container1">
+            
+            <h4>Number of Participants <input id= "numParticipants"  type="number"> </h4>
+            <button onclick="participants()" type="submit" >Sumbit</button>
+            
+            
+        </div>
+
+        <div class="createdParticipants" id="participants">
+            <h4>Edit Participant Information</h4>
+        </div>
+
+
+
+    <script type="text/javascript" src="addParticipants.js"></script>
+    </body> 
+</html>

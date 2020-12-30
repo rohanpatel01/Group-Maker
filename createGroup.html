@@ -19,20 +19,20 @@
     
             <div class= "instructions">
                 <body>
-                    Welcome to group maker! here you will be able to create groups for events.
-                    You can also create n number of groups, allocate team captains, add participants, and create partners.
+                    <p>
+                        Welcome to group maker! here you will be able to create groups for events.
+                        You can also create n number of groups, allocate team captains, add participants, and create partners.
+                    </p>
+                    
                 </body>
             </div>
     
-    
-            
-            <div class="container1">
-                <h4>Number of Participants <input id= "numParticipants"  type="number"> </h4>
-                
-            </div>
                 
             <div class="container2">
+                
                 <h4>Number of Groups <input id= "numGroups" type="number"> </h4>
+                
+                
             </div>
             
 
@@ -45,12 +45,14 @@
             <div class= "listOfTeamCaptains" id="teamCaptainsElements" ></div>
     
             <div class="createGroup">
-                <button id="createGroup" class="btn btn-primary" onClick="">Create Group</button>
-    
+                <form action="addParticipants.html" method= "POST">
+                    <button id="createGroup" class="btn btn-primary" onClick="createGroup()">Create Group</button>
+                </form>
             </div>
+
         </div>
         
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="createGroup.js"></script>
     </body>
 
     
