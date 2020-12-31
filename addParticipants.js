@@ -1,15 +1,20 @@
 
 let numberOfGroups;
+let captain1;
 window.addEventListener('load', () => {
 
 
     // Via local Storage
     numberOfGroups = localStorage.getItem("NumGroups");
+    captain1 = localStorage.getItem("captain1");
+
+
 })
 
 function participants()
 {
-  console.log(numberOfGroups);
+  console.log("number of groups: " + numberOfGroups);
+  console.log("teamcaptain 1: " + captain1);
   if(document.getElementById("numParticipants").value != 0)
   {
       var i;
